@@ -245,9 +245,10 @@ API_KEY = "YOUR_API_KEY_HERE"
   - Budget
   - Dietary preference
   - Cuisine choice
-  - Health goal
+  - Eating Style
   - Spice tolerance
-  - Meal plan (Starter / Main / Dessert)
+  - Health Preference
+  - Meal plan (Full Meal / Starter / Main / Dessert / Surprise Me)
  
 ## 🚀 Analyze Menu
 - Click “Analyze Menu 🚀”
