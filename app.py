@@ -3,7 +3,7 @@ import os
 from processor import MenuProcessor
 from recommender import DishRecommender
 
-ef normalize_dish_name(name):
+def normalize_dish_name(name):
     name = (
         name.lower()
         .strip()
