@@ -5,8 +5,7 @@ import cv2
 import numpy as np
 
 # --- CONFIGURATION ---
-# PASTE YOUR API KEY HERE
-API_KEY = "AIzaSyAWLZMveGT19FDWI0LWudbEuTXMQFqiwRQ"
+API_KEY = # PASTE YOUR API KEY HERE
 genai.configure(api_key=API_KEY)
 
 class MenuProcessor:
@@ -32,7 +31,7 @@ class MenuProcessor:
         Uses Gemini to structure, translate, and enrich the menu data.
         """
         
-        # We update the prompt to handle the User's specific requirements
+        # The prompt to handle the User's specific requirements
         prompt = f"""
         You are an AI Menu Digitizer. 
         I will give you raw text from a restaurant menu. 
