@@ -210,3 +210,63 @@ git clone <your-github-repo-link>
 cd Menu_AI
 ```
 
+## 📦 2. Install Required Dependencies
+```bash
+pip install -r requirements.txt
+```
+- (If requirements.txt is not present, install manually:)
+```bash
+pip install streamlit easyocr opencv-python pandas numpy "skewed images" google-generativeai Structuring" & "Translation" python-dotenv Pillow requests opencv-python-headless
+```
+
+## 🔐 3. API Key Setup
+- Open **processor.py**
+- Add your Google Generative AI (Gemini) API key
+```bash
+API_KEY = "YOUR_API_KEY_HERE"
+```
+
+## ▶️ 4. Run the Application
+```bash
+API_KEY = "YOUR_API_KEY_HERE"
+```
+- The app will open automatically in your browser
+- Default URL: **http://localhost:8501**
+
+## 🖼️ How to Use the Application
+📤 Upload Menu Images
+- Click “Upload Menu Image(s)”
+- Upload one or multiple menu images (JPG / PNG / JPEG)
+
+## ⚙️ Set Preferences (Sidebar)
+- Select:
+  - Language
+  - Currency
+  - Budget
+  - Dietary preference
+  - Cuisine choice
+  - Health goal
+  - Spice tolerance
+  - Meal plan (Starter / Main / Dessert)
+ 
+## 🚀 Analyze Menu
+- Click “Analyze Menu 🚀”
+- System will:
+  - Extract text using OCR
+  - Translate menu items
+  - Enrich dishes with AI
+  - Generate structured menu data
+ 
+## 🌟 View Recommendations
+- Get course-wise smart recommendations
+- See:
+  - Dish image
+  - Price & currency
+  - Ingredients & allergens
+  - Point-wise explanation for why the dish was recommended
+  - Health-based reasoning (low calorie / high protein etc.)
+ 
+## 🔁 Try Again
+- Change preferences anytime
+- Upload new menu images
+- Re-analyze for updated recommendations
