@@ -158,7 +158,7 @@ class DishRecommender:
         return best_dish, explanation
 
 
-    # ✅ MUST BE INSIDE THE CLASS
+    # MUST BE INSIDE THE CLASS
     def recommend_course_wise(self, menu_data, preferences):
         """
         Recommend the best dish for each selected course
