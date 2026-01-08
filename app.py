@@ -3,14 +3,25 @@ import os
 from processor import MenuProcessor
 from recommender import DishRecommender
 
-def normalize_dish_name(name):
-    return (
+ef normalize_dish_name(name):
+    name = (
         name.lower()
         .strip()
         .replace("&", "and")
         .replace("-", "_")
         .replace(" ", "_")
+        .replace("(", "")
+        .replace(")", "")
+        .replace("*", "")
+        .replace(",", "")
+        .replace(".", "")
+        .replace("/", "")
     )
+
+    while "__" in name:
+        name = name.replace("__", "_")
+
+    return name.strip("_")
 
 
 def get_dish_image_path(dish_name):
