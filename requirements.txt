@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+numpy
+pandas
+easyocr                 # For "Menu Digitization" and handling "skewed images"
+google-generativeai     # We will use Gemini API for "Information Structuring" & "Translation"
+python-dotenv
+Pillow                  # For image handling
+requests                # For fetching external data
+opencv-python-headless
