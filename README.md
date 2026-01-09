@@ -227,7 +227,7 @@ API_KEY = "YOUR_API_KEY_HERE"
 
 ## ▶️ 4. Run the Application
 ```bash
-API_KEY = "YOUR_API_KEY_HERE"
+streamlit run app.py
 ```
 - The app will open automatically in your browser
 - Default URL: **http://localhost:8501**
