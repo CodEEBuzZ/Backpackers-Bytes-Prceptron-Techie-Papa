@@ -154,7 +154,6 @@ Backpackers’ Bytes follows a **modular, AI-driven pipeline architecture**, ens
 - **Python** – Core backend logic
 - **Streamlit** – Interactive web interface
 - **OCR Engine** – Text extraction from menu images
-- **gTTS (optional)** – Text-to-speech support (extensible)
 - **JSON** – Structured menu representation
 - **OS & File Handling** – Image and dataset management
 
@@ -271,3 +270,6 @@ API_KEY = "YOUR_API_KEY_HERE"
 - Change preferences anytime
 - Upload new menu images
 - Re-analyze for updated recommendations
+
+## ## 🎥 Project Demo
+- Watch the full working demo of Menu AI here: **https://drive.google.com/file/d/12Hwy1oh2xfgvUHikhXHHJJk5n91ZI61K/view?usp=sharing**
