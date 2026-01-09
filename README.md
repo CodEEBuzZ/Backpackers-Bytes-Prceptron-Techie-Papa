@@ -271,5 +271,5 @@ streamlit run app.py
 - Upload new menu images
 - Re-analyze for updated recommendations
 
-## ## 🎥 Project Demo
+## 🎥 Project Demo
 - Watch the full working demo of Menu AI here: **https://drive.google.com/file/d/12Hwy1oh2xfgvUHikhXHHJJk5n91ZI61K/view?usp=sharing**
